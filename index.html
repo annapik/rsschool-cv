@@ -23,9 +23,9 @@
                 </div>
                 <nav class="nav">
                     <ul class="nav-list">
-                        <li class="nav-items"><a href="#" class="nav-link">Personal Information</a></li>
-                        <li class="nav-items"i><a href="#" class="nav-link">Education and Skills</a></li>
-                        <li class="nav-items"><a href="#" class="nav-link">Projects</a></li>
+                        <li class="nav-items"><a href="#summary" class="nav-link">Personal Information</a></li>
+                        <li class="nav-items"><a href="#education" class="nav-link">Education and Skills</a></li>
+                        <li class="nav-items"><a href="#projects" class="nav-link">Projects</a></li>
                     </ul>
                 </nav>
             </div>
@@ -42,9 +42,9 @@
                     <p>Saratov, Russian Federation</p>
                     <h3 class="section-subtitle">Contact Me:</h3>
                     <ul class="contacts-list">
-                        <li class="contacts-items">discord: Anna.Pikulskaya#6202</li>
-                        <li class="contacts-items">github:<a href="https://github.com/annapik/rsschool-cv" class="contacts-link"> annapik</a></li>
-                        <li class="contacts-items">email:<a href="mailto:anna.pikulskaya@yandex.ru" class="contacts-link"> anna.pikulskaya@yandex.ru</a></li>
+                        <li class="contacts-items discord">discord: Anna.Pikulskaya#6202</li>
+                        <li class="contacts-items github">github:<a href="https://github.com/annapik/rsschool-cv" class="contacts-link"> annapik</a></li>
+                        <li class="contacts-items email">email:<a href="mailto:anna.pikulskaya@yandex.ru" class="contacts-link"> anna.pikulskaya@yandex.ru</a></li>
                     </ul>
                  </section>
                  <section class="skills">
@@ -62,28 +62,38 @@
                  </section> 
                  <section class="code">
                     <h2 class="section-title">Code Example</h2>
+                    <div class="code-example">
+                    <pre>
+function multiply(a, b){
+    return a * b;
+    }
+                    </pre>
+                </div>
                  </section>
             </aside>
 
-            <section class="main-section">
-                <section class="summary">
+            <div class="main-section">
+                <section class="summary" id="summary">
                     <h2 class="section-title">About Me</h2>
                         <p>I am very interested in front-end development because  it will allow me to see the result of my work. My strengths are learning ability, logical thinking and perseverance. I want to change my life and work in a modern fast-growing profession with a big helping community.</p>
                 </section>
-                <section class="education">
+                <section class="education" id="education">
                     <h2 class="section-title">Education</h2>
                         <p>Saratov State Technical University, Institute of Urbanistics, Architecture and Construction, 2006-2012</p>
                     <h2 class="section-title">Courses</h2>
                         <ul class="courses-list">
-                            <li class="courses-items">HTML and CSS on <a href="https://ru.code-basics.com/html">code-basics</a></li>
-                            <li class="courses-items">JavaScript Manual on <a href="https://learn.javascript.ru/">learn.javascript</a></li>
+                            <li class="courses-items">HTML and CSS on <a href="https://ru.code-basics.com/html" class="courses-link">code-basics</a></li>
+                            <li class="courses-items">JavaScript Manual on <a href="https://learn.javascript.ru/" class="courses-link">learn.javascript</a></li>
                             <li class="courses-items">RS Schools «JavaScript/Front-end. Stage 0»</li>
                         </ul>
                 </section>
-                <section class="projects">
+                <section class="projects" id="projects">
                     <h2 class="section-title">Projects</h2>
+                    <ul class="projects-list">
+                        <li class="projects-items">CV:<a href="https://annapik.github.io/rsschool-cv/cv" class="projects-link"> Anna Pikulskaya</a></li>
+                    </ul>
                 </section>
-            </section>
+            </div>
         </div>  
     </main>
 
