@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth; 
+  }
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+    min-height: 100vh;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #5B596F;
+    margin: 0;
+}
+
+h2, h3, p {
+  margin: 15px 0 10px;
+}
+ 
+.container {
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+ul {
+    list-style: none;
+  }
+
+a {  
+    text-decoration: none;
+}
+
+.contacts-list, .skills-list, .courses-list, .languages-list {
+  margin: 10px 0;
+}
+
+.contacts-items, .skills-items, .courses-items, .languages-items {
+position: relative;
+}
+
+.skills-items::before, .courses-items::before, .languages-items::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: -30px;
+  width: 8px;
+  height: 8px; 
+  border: 2px solid #5B596F;
+  border-radius: 50%;
+}
+
+
+.header .container {
+ display:flex;
+ flex-direction: row;
+ flex-wrap: nowrap;
+ height: 500px;
+ background: #CDD3E3;
+}
+
+.main-foto {
+  width: 375px;
+}
+
+.foto {
+  width: 100%;
+}
+
+.header-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 110px 0 0 0px;
+}
+
+.name {
+  color: #E9C4BB;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold; 
+  background: #5B596F;
+  padding-left: 30px;
+}
+
+.prof {
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: 400; 
+  background: #5B596F;
+  padding-left: 30px;
+}
+
+.nav {
+  margin: 0 ;
+  background:#5B596F;
+}
+
+.nav-list {
+  margin: 11px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.nav-link {
+  color: #CDD3E3;
+}
+
+.main .container {
+  display:flex;
+  flex-direction: row;
+}
+
+.side-section {
+  width: 375px;
+  background:#5B596F;
+  color: #5B596F;
+}
+
+.contacts, .skills, .summary, .education {
+  padding: 30px;
+  background: rgba(233, 196, 187, 0.5);
+  margin-bottom: 50px;
+}
+
+.code, .projects {
+  padding: 30px;
+  background: rgba(233, 196, 187, 0.5);
+
+}
+
+.contacts, .summary {
+  height: 350px;
+}
+
+.education, .skills {
+  height: 350px;
+}
+
+.code, .projects {
+  height: 350px;
+}
+
+.main-section {
+  max-width: 625px;
+  background: #CDD3E3;
+}
+
+.footer .container {
+  background: #5B596F;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer-logo {
+  height: 50px;
+}
+
+.footer-content {
+  margin: auto 50px;
+}
+
+time {
+  color: #000000;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
