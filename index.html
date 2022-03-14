@@ -54,6 +54,8 @@
                         <li class="skills-items">CSS3</li>
                         <li class="skills-items">GIT, GITHub</li>
                         <li class="skills-items">VScode</li>
+                        <li class="skills-items">JS Basics</li>
+
                     </ul>
                     <h2 class="section-title">Languages</h2>
                         <ul class="languages-list">
@@ -64,8 +66,15 @@
                     <h2 class="section-title">Code Example</h2>
                     <div class="code-example">
                     <pre>
-function multiply(a, b){
-    return a * b;
+module.exports = function reverse (n) {
+    let i = 0;
+    let result = '';
+    let strNum = String(Math.abs(n));
+    while (i < strNum.length) {
+        result = `${strNum[i]}${result}`;
+        i = i + 1;
+    }
+    return Number(result);
     }
                     </pre>
                 </div>

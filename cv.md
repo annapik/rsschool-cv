@@ -42,7 +42,7 @@ Saratov State Technical University, Institute of Urbanistics, Architecture and C
 * [Js basic](https://learn.javascript.ru/)
 * [Css3](https://ru.code-basics.com/languages/css) 
 * [Html5](https://ru.code-basics.com/languages/html)
-* [RS School stage 0](https://rs.school/js-stage0/) 
+* [RS Schools «JavaScript/Front-end. Stage 0»](https://rs.school/js-stage0/) 
 
 ### Languages: 
 * English – Intermediate (according to the online test [Efset](www.efset.org))
