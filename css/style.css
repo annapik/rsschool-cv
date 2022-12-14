@@ -160,6 +160,7 @@ a {
   width: 20px;
   height: 20px;
   background-size: 20px 20px;
+  filter: invert(15%);
 }
 
 .github::before {
@@ -171,6 +172,7 @@ a {
   width: 20px;
   height: 20px;
   background-size: 20px 20px;
+  filter: invert(15%);
 }
 
 .email::before {
@@ -182,6 +184,7 @@ a {
   width: 20px;
   height: 20px;
   background-size: 20px 20px;
+  filter: invert(15%);
 }
 
 .contacts-link, .courses-link, .projects-link {
@@ -235,6 +238,11 @@ a {
 
 .footer-logo {
   height: 50px;
+  filter: invert(15%);
+}
+
+.footer-logo:hover {
+  filter: invert(80%);
 }
 
 .footer-content {
@@ -242,7 +250,7 @@ a {
 }
 
 time {
-  color: #000000;
+  color: #000000a8;
   font-size: 24px;
   font-weight: bold;
 }
